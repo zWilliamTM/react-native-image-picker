@@ -86,7 +86,7 @@ public class ImagePickerModule extends ReactContextBaseJavaModule implements Act
             //cameraIntent.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, this.options.videoQuality);
 
             cameraIntent.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, 0);
-            cameraIntent.putExtra(MediaStore.EXTRA_SIZE_LIMIT, 5000000L); // 5mb
+            //cameraIntent.putExtra(MediaStore.EXTRA_SIZE_LIMIT, 5000000L); // 5mb
             cameraIntent.putExtra(MediaStore.EXTRA_DURATION_LIMIT, 10);
 
             /*if (this.options.durationLimit > 0) {
